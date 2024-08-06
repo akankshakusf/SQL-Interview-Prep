@@ -5,7 +5,7 @@ This a SQL interview Prep Repository
 
 ## Q1. What is data modeling?
 
-Data modeling is the process of analyzing and defining all the different data types your business collects and produces, as well as the relationships between those bits of data. By using text, symbols, and diagrams, data modeling concepts create visual representations of data as it’s captured, stored, and used at your business. As your business determines how data is used and when, the data modeling process becomes an exercise in understanding and clarifying your data requirements.
+Data modeling is the process of designing the database from scratch by analyzing and defining all the different data types your business collects and produces, as well as the relationships between those bits of data. By using text, symbols, and diagrams, data modeling concepts create visual representations of data as it’s captured, stored, and used at your business. As your business determines how data is used and when, the data modeling process becomes an exercise in understanding and clarifying your data requirements.
 
 ## The benefits of data modeling
 
