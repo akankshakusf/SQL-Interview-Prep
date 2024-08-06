@@ -59,7 +59,7 @@ Data modeling, data science, and data analytics all go hand-in-hand—you need a
 
 With all your data clearly defined, analyzing exactly the data you need becomes much easier. Because you’ve already set up the relationships between data attributes within your data model, it’s simple to analyze and see impacts as you change processes, prices, or staffing.
 
-## Q3. What is Normalization in SQL? 1NF, 2NF, 3NF and BCNF in DBMS
+## Q3. What is Normalization in SQL? 1NF, 2NF, 3NF ?
 
 Normalization is the process to eliminate data redundancy and enhance data integrity in the table. Normalization also helps to organize the data in the database. It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
 
