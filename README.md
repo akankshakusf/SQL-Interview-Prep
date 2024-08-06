@@ -23,15 +23,35 @@ Now that you know what data modeling is and why it’s important, let’s look a
 
 ### Conceptual data modeling
 
-A conceptual data model defines the overall structure of your business and data. Used for organizing business concepts, your conceptual data model is defined by your business stakeholders and data engineers or architects. For instance, you may have customer, employee, and product data and each data bucket, known as entities, has relationships with other entities. Both the entities and the entity relationships are defined within your conceptual data model.
+Conceptual data model
+Conceptual data models give a big picture view of data. 
+
+They explain the following:
+
+- What data the system contains
+- Data attributes and conditions or constraints on the data
+- What business rules the data relates to
+- How the data is best organized
+- Security and data integrity requirements
+- The business stakeholders and analysts typically create the conceptual model. It is a simple diagrammatic representation that does not follow formal data modeling rules. What matters is that it helps both technical and nontechnical stakeholders to share a common vision and agree on the purpose, scope, and design of their data project.
 
 ### Logical data modeling
 
-A logical data model builds upon the conceptual data model with specific attributes of data within each entity and the relationships between those attributes. For instance, Customer A buys Product B from Sales Associate C. This is your technical model of the rules and data structures as defined by data engineers, architects, and business analysts, helping drive decisions about what physical model your data and business require.
+Logical data models map the conceptual data classes to technical data structures. They give more details about the data concepts and complex data relationships that were identified in the conceptual data model, such as these:
+
+- Data types of the various attributes (for example, string or number)
+- Relationships between the data entities
+- Primary attributes or key fields in the data
+- Data architects and analysts work together to create the logical model. They follow one of several formal data modeling systems to create the representation. Sometimes agile teams might choose to skip this step and move from conceptual to physical models directly. However, these models are useful for designing large databases, called data warehouses, and for designing automatic reporting systems.
 
 ### Physical data modeling
 
-A physical data model is your specific implementation of the logical data model created by database administrators and developers. It is developed for a specific database tool and data storage technology, and with data connectors to serve the data throughout your business systems to users as needed. This is the “thing” the other models have been leading to—the actual implementation of your data estate.
+Physical data models map the logical data models to a specific DBMS technology and use the software’s terminology. For example, they give details about the following:
+
+- Data field types as represented in the DBMS
+- Data relationships as represented in the DBMS
+- Additional details, such as performance tuning
+- Data engineers create the physical model before final design implementation. They also follow formal data modeling techniques to make sure that they have covered all aspects of the design.
 
 ## Q2. How data modeling concepts impact analytics ?
 
