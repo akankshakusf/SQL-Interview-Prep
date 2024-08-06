@@ -104,7 +104,7 @@ Now understand the Second Normal Form with the help of an example.
 
 Consider the table Location:
 
-![alt text](Image/image4.png)
+![alt text](Images/image4.png)
 
 The Location table possesses a composite primary key cust_id, storeid. The non-key attribute is store_location. In this case, store_location only depends on storeid, which is a part of the primary key. Hence, this table does not fulfill the second normal form.
 
