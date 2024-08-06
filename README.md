@@ -1,6 +1,3 @@
-# SQL-Interview-Prep
-This a SQL interview Prep Repository
-
 # SQL Interview Prep Repository
 
 ## Q1. What is data modeling?
