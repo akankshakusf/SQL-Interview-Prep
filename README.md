@@ -17,7 +17,7 @@ By modeling your data, you can document what types of data you have, how you use
 
 It's not just about the results of data modeling, but how you get those results.
 
-## Data modeling concept examples
+## Data modeling 3 Levels
 
 Now that you know what data modeling is and why it’s important, let’s look at the three different types of data modeling concepts as examples.
 
