@@ -145,7 +145,7 @@ The `char` datatype is used to store a fixed length of characters. Suppose we de
 ## nvarchar DataType
 `nvarchar` is similar to `varchar`, but it is used to store Unicode characters and allows you to store multiple languages in the database. `nvarchar` will take twice as much space to store the extended set of characters required by other languages. If you are not using other languages, it’s better to use `varchar` instead of `nvarchar`.
 
-# Difference between bit, tinyint, smallint, int, and bigint datatypes in SQL Server
+## Q4. Difference between bit, tinyint, smallint, int, and bigint datatypes in SQL Server
 
 ## Bit DataType
 This datatype represents a single bit that can be 0 or 1.
