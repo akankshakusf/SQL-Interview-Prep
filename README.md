@@ -132,4 +132,32 @@ Now to change the table to the third normal form, you need to divide the table a
 ![alt text](Images/image8.png)
 ![alt text](Images/image9.png)
 
-As you can see in both the tables, all the non-key attributes are now fully functional, dependent only on the primary key. In the first table, columns name, subid, and addresses only depend on stu_id. In the second table, the sub only depends on su
+As you can see in both the tables, all the non-key attributes are now fully functional, dependent only on the primary key. In the first table, columns name, subid, and addresses only depend on stu_id. In the second table, the sub only depends on subid.
+
+# Difference between char, varchar, and nvarchar in SQL Server
+
+## Char DataType
+The `char` datatype is used to store a fixed length of characters. Suppose we declared `char(50)`, it will allocate memory for 50 characters. If we insert only 10 characters into `char(50)`, only 10 characters of memory will be used and the remaining 40 characters of memory will be wasted.
+
+## varchar DataType
+`varchar` means variable characters and is used to store non-unicode characters. It allocates memory based on the number of characters inserted. Suppose we declared `varchar(50)`, it will allocate memory for 0 characters at the time of declaration. If we insert only 10 characters into `varchar(50)`, it will allocate memory for only those 10 characters.
+
+## nvarchar DataType
+`nvarchar` is similar to `varchar`, but it is used to store Unicode characters and allows you to store multiple languages in the database. `nvarchar` will take twice as much space to store the extended set of characters required by other languages. If you are not using other languages, it’s better to use `varchar` instead of `nvarchar`.
+
+## Q3. Difference between bit, tinyint, smallint, int, and bigint datatypes in SQL Server
+
+## Bit DataType
+This datatype represents a single bit that can be 0 or 1.
+
+## tinyint DataType
+This datatype represents a single byte which is used to store values from 0 to 255 (MinVal: 0, MaxVal: 255). Its storage size is 1 byte.
+
+## smallint DataType
+This datatype represents a signed 16-bit integer which is used to store values from -2^15 (-32,768) through 2^15 - 1 (32,767). Its storage size is 2 bytes.
+
+## int DataType
+This datatype represents a signed 32-bit integer which is used to store values from -2^31 (-2,147,483,648) to 2^31-1 (2,147,483,647). Its storage size is 4 bytes.
+
+## Bigint DataType
+This datatype represents a signed 64-bit integer which is used to store values from -2^63 (-9223372036854775808) through 2^63-1 (9223372036854775807). Its storage size is 8 bytes.
