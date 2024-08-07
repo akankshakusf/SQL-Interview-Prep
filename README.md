@@ -134,7 +134,7 @@ Now to change the table to the third normal form, you need to divide the table a
 
 As you can see in both the tables, all the non-key attributes are now fully functional, dependent only on the primary key. In the first table, columns name, subid, and addresses only depend on stu_id. In the second table, the sub only depends on subid.
 
-# Difference between char, varchar, and nvarchar in SQL Server
+## Q3. Difference between char, varchar, and nvarchar in SQL Server
 
 ## Char DataType
 The `char` datatype is used to store a fixed length of characters. Suppose we declared `char(50)`, it will allocate memory for 50 characters. If we insert only 10 characters into `char(50)`, only 10 characters of memory will be used and the remaining 40 characters of memory will be wasted.
@@ -145,7 +145,7 @@ The `char` datatype is used to store a fixed length of characters. Suppose we de
 ## nvarchar DataType
 `nvarchar` is similar to `varchar`, but it is used to store Unicode characters and allows you to store multiple languages in the database. `nvarchar` will take twice as much space to store the extended set of characters required by other languages. If you are not using other languages, it’s better to use `varchar` instead of `nvarchar`.
 
-## Q3. Difference between bit, tinyint, smallint, int, and bigint datatypes in SQL Server
+# Difference between bit, tinyint, smallint, int, and bigint datatypes in SQL Server
 
 ## Bit DataType
 This datatype represents a single bit that can be 0 or 1.
