@@ -94,7 +94,9 @@ NATURAL JOIN table2;
 ```
 
 ## 2. SEMI JOIN
-**Description**: A SEMI JOIN returns rows from the first table where one or more matches are found in the second table, but unlike an INNER JOIN, it does not return any columns from the second table.
+**Description**: Semi Join queries are generally executed in the form of subqueries where rows are picked up only from the first (left) table with respect to a condition (or a set of conditions) that is matched in the second table. Unlike regular joins, which include the matching rows from both tables, a semi-join only includes columns from the left table in the result.
+
+A SEMI JOIN returns rows from the first table where one or more matches are found in the second table, but unlike an INNER JOIN, it does not return any columns from the second table.
 **Example**:
 ```sql
 SELECT columns
