@@ -105,7 +105,9 @@ WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.column = table2.column);
 ```
 
 ## 3. ANTI JOIN
-**Description**: An ANTI JOIN returns rows from the first table where no match is found in the second table. This can be implemented using NOT EXISTS or LEFT JOIN combined with IS NULL.
+**Description**: Anti-joins, also known as anti-semi-joins, are the exact opposite of semi-joins. In Anti Join, rows are picked up from the first table with respect to a condition (or a set of conditions) that is not matched in the second table.
+
+An ANTI JOIN returns rows from the first table where no match is found in the second table. This can be implemented using NOT EXISTS or LEFT JOIN combined with IS NULL.
 **Example (using NOT EXISTS)**:
 ```sql
 SELECT columns
