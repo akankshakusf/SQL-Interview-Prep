@@ -113,16 +113,17 @@ CREATE TABLE Customers (
 ### Syntax:
 ```sql
 CREATE TABLE table_name (
-    column1 datatype NOT NULL,
+    column1 datatype,
     column2 datatype,
     ...
+    CONSTRAINT constraint_name CHECK (condition)
 );
 ```
 ### Example:
 ```sql
-CREATE TABLE Customers (
-    CustomerID INT PRIMARY KEY,
-    CustomerName VARCHAR(100) NOT NULL
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Age INT CHECK (Age >= 18)
 );
 ```
 ## 6. DEFAULT Constraint
