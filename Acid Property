@@ -1,0 +1,7 @@
+	· What is ACID? What is the ACID property for transactions
+			ACID is (Atomicity, consistency, isolation, durability) is set of properties that guarantee database transaction are processed reliably. 
+			Atomicity: requires that database modifications must follow an "all or nothing" rule. Each transaction is said to be atomic. If one part of the transaction fails, the entire transaction fails and the database state is left unchanged.
+			Consistency: The consistency property ensures that any transaction the database performs will take it from one consistent state to another.
+			Isolation:(DeadLock) Isolation refers to the requirement that no transaction should be able to interfere with another transaction at all.In other words, it should not be possible that two transactions affect the same rows run concurrently, as the outcome would be unpredicted and the system thus unreliable.
+			Durability: Durability means that once a transaction has been committed, it will remain so.
+In other words, every committed transaction is protected against power loss/crash/errors and cannot be lost by the system and can thus be guaranteed to be completed.
